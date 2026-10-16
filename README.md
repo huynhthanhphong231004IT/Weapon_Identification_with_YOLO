@@ -35,7 +35,7 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
 
 <div align="center">
 <p align="center">
-  <img src="Charts/Flow.jpg" width="800">
+  <img src="Charts/Flow_2.jpg" width="800">
   <br><br>
   <i>Kiến trúc phân loại vũ khí hai nhánh: Kết hợp mô hình phát hiện YOLO, trích xuất đặc trưng hình thái học PCA và dung hợp mượt hóa theo thời gian</i>
 </p>
