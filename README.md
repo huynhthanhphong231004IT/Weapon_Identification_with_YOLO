@@ -33,6 +33,11 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
 </p>
 <br>
 
+```python
+!git clone https://github.com/huynhthanhphong231004IT/Weapon_Identification_with_YOLO.git
+```
+
+
 <div align="center">
 <p align="center">
   <img src="Charts/Flow_2.jpg" width="800">
