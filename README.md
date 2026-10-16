@@ -36,15 +36,17 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
 
 <p align="center">
   <img src="Charts/group_figure_1.png" width="800">
-  <hr width="80%">
+  <hr width="100%">
   <img src="Charts/group_figure_2.png" width="800">
-  <hr width="80%">
+  <hr width="100%">
   <img src="Charts/group_figure_3.png" width="800">
-  <hr width="80%">
+  <hr width="100%">
   <img src="Charts/group_figure_4.png" width="800">
-  <hr width="80%">
+  <hr width="100%">
   <img src="Charts/group_figure_5.png" width="800">
   <br><br>
   <i>Khung phân tích đa chiều về động lực học quá trình huấn luyện, phân phối thống kê và tương quan chỉ số đánh giá</i>
 </p>
+
+
 
