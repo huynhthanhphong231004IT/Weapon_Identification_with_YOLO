@@ -43,10 +43,11 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
 
 ### Cơ sở lý thuyết thuật toán, cơ sở toán học và phương pháp xác minh đặc trưng hình học - màu sắc kết hợp mô hình học sâu.
 ---
-#### 1. Công thức toán học vàphân tích đặc trưng
 Hệ thống xác minh và theo dõi mối đe dọa được đề xuất dựa trên kiến trúc kết hợp (hybrid framework), dung hợp mô hình phát hiện học sâu (Deep Learning) với hệ thống xác minh logic mờ và hình học định tính. Cơ sở toán học của các thuật toán cốt lõi được mô tả chi tiết.
 
-A. Độ trùng lặp khung bao và ghép nối mục tiêu: Để theo dõi các mục tiêu phát hiện qua các khung hình liên tiếp và thực hiện phân nhóm (clustering), chỉ số Giao trên Hợp (IoU) giữa hai khung bao A và B được tính toán theo công thức 
+### 1. Độ trùng lặp khung bao và ghép nối mục tiêu
+
+Để theo dõi các mục tiêu phát hiện qua các khung hình liên tiếp và thực hiện phân nhóm (clustering), chỉ số Giao trên Hợp (IoU) giữa hai khung bao A và B được tính toán theo công thức 
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.image?\text{IoU}(A,B)=\frac{\text{Area}(A\cap&space;B)}{\text{Area}(A\cup&space;B)}=\frac{\max(0,x_{i2}-x_{i1})\times\max(0,y_{i2}-y_{i1})}{\text{Area}(A)&plus;\text{Area}(B)-\text{Area}(A\cap&space;B)}" title="IoU Formula" />
@@ -56,7 +57,9 @@ A. Độ trùng lặp khung bao và ghép nối mục tiêu: Để theo dõi cá
   <img src="https://latex.codecogs.com/svg.image?\text{Trong&space;đó&space;}(x_{i1},y_{i1})\text{&space;và&space;}(x_{i2},y_{i2})\text{&space;lần&space;lượt&space;là&space;tọa&space;độ&space;của&space;hình&space;chữ&space;nhật&space;giao&space;nhau.}" title="Explanation" />
 </p>
 
-B. Hàm thuộc tính Logic mờ dạng hình thang/tam giác: Để đánh giá các đặc trưng hình học biến thiên liên tục mà không gặp phải hiện tượng chia ngưỡng cứng (hard thresholding), hàm thuộc tính dạng tam giác/hình thang f(x; a, b, c, d) được định nghĩa
+### 2. Hàm thuộc tính Logic mờ dạng hình thang/tam giác
+
+Để đánh giá các đặc trưng hình học biến thiên liên tục mà không gặp phải hiện tượng chia ngưỡng cứng (hard thresholding), hàm thuộc tính dạng tam giác/hình thang f(x; a, b, c, d) được định nghĩa
 <p align="center">
   <img src="https://latex.codecogs.com/svg.image?f(x;a,b,c,d)=\begin{cases}0,&\text{x}\le&space;a\text{&space;hoặc&space;x}\ge&space;d\\\frac{x-a}{b-a&plus;\epsilon},&a<x<b\\1.0,&b\le&space;x\le&space;c\\\frac{d-x}{d-c&plus;\epsilon},&c<x<d\end{cases}" title="Membership Function" />
 </p>
@@ -65,7 +68,8 @@ B. Hàm thuộc tính Logic mờ dạng hình thang/tam giác: Để đánh giá
   <img src="https://latex.codecogs.com/svg.image?\text{Trong&space;đó&space;}\epsilon=10^{-9}\text{&space;là&space;hằng&space;số&space;ổn&space;định&space;tránh&space;lỗi&space;chia&space;cho&space;0.}" title="Epsilon Explanation" />
 </p>
 
-C. Trích xuất trục chính bằng phân rã ma trận hiệp biến (PCA): 
+### 3. Trích xuất trục chính bằng phân rã ma trận hiệp biến (PCA)
+
 <p>
 Để đo lường độ đối xứng không gian và phân bố chiều rộng của đối tượng, các đường biên tiền cảnh thu được sau phân đoạn được chuyển về hệ tọa độ chuẩn hóa thông qua Phân tích Thành phần Chính (PCA). Cho tập hợp <img src="https://latex.codecogs.com/svg.image?N" title="N" /> điểm ảnh tiền cảnh đã trừ đi trọng tâm <img src="https://latex.codecogs.com/svg.image?\mathbf{P}=\{(x_i,y_i)\}_{i=1}^N" title="P" />
 </p>
@@ -94,7 +98,7 @@ C. Trích xuất trục chính bằng phân rã ma trận hiệp biến (PCA):
   <img src="https://latex.codecogs.com/svg.image?\text{Trong&space;đó&space;}G\text{&space;đại&space;diện&space;cho&space;lưới&space;nhị&space;phân&space;hóa&space;(rasterized&space;grid)&space;của&space;hình&space;dạng&space;đối&space;tượng&space;đã&space;căn&space;chỉnh&space;theo&space;trục&space;chính.}" title="Grid Explanation" />
 </p>
 
-D. Kết hợp quyết định thích ứng và làm mượt theo thời gian: 
+### 4. Kết hợp quyết định thích ứng và làm mượt theo thời gian
 <p>
   Thay vì chỉ dựa vào xác suất đầu ra (logits) của mạng nơ-ron sâu, vecto phân loại cuối cùng <img src="https://latex.codecogs.com/svg.image?\mathbf{P}_{\text{final}}" title="P_final" /> thực hiện kết hợp vecto xác suất <img src="https://latex.codecogs.com/svg.image?\mathbf{Y}" title="Y" /> từ mô hình YOLO với vecto điểm hình học <img src="https://latex.codecogs.com/svg.image?\mathbf{G}" title="G" /> theo trọng số chất lượng phân đoạn <img src="https://latex.codecogs.com/svg.image?Q_{\text{seg}}" title="Q_seg" />:
 </p>
