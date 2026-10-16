@@ -33,6 +33,14 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
 </p>
 <br>
 
+<div align="center">
+<p align="center">
+  <img src="Charts/Flow.jpg" width="800">
+  <br><br>
+  <i>FLOW: Hệ thống xác minh mối đe dọa vũ khí thời gian thực dựa trên mạng nơ-ron sâu kết hợp phân tích đặc trưng hình học và logic mờ</i>
+</p>
+</div>
+
 
 <div align="center">
 <p align="center">
