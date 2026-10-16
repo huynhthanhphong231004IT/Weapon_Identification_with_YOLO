@@ -49,4 +49,15 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
 </p>
 
 
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%"><img src="Images/KQ_01.jpg"></td>
+      <td width="50%"><img src="Images/KQ_01.jpg"></td>
+    </tr>
+  </table>
+  <p><i>Kết quả nhận diện vũ khí và phân tích chỉ số rủi ro trên giao diện hệ thống giám sát an ninh thông minh.</i></p>
+</div>
+
+
 
