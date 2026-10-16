@@ -34,6 +34,7 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
 <br>
 
 
+<div align="center">
 <p align="center">
   <img src="Charts/group_figure_1.png" width="800">
   <hr width="100%">
@@ -47,7 +48,7 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
   <br><br>
   <i>Khung phân tích đa chiều về động lực học quá trình huấn luyện, phân phối thống kê và tương quan chỉ số đánh giá</i>
 </p>
-
+</div>
 
 <div align="center">
   <table>
@@ -58,6 +59,9 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
   </table>
   <p><i>Kết quả nhận diện vũ khí và phân tích chỉ số rủi ro trên giao diện hệ thống giám sát an ninh thông minh.</i></p>
 </div>
+
+
+
 
 
 
