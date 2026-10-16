@@ -47,6 +47,14 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
 </div>
 
 <div align="center">
+<p align="center">
+  <img src="Charts/BieuDo.jpg" width="800">
+  <br><br>
+  <i>AegisVision: Đánh giá hiệu quả của cơ chế Kiểm định & Trung bình động (Temporal Smoothing) lên độ chính xác và độ ổn định nhãn</i>
+</p>
+</div>
+
+<div align="center">
   <table>
     <tr>
       <td width="50%"><img src="Images/KQ_01.jpg"></td>
@@ -55,6 +63,8 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
   </table>
   <p><i>Kết quả nhận diện vũ khí và phân tích chỉ số rủi ro trên giao diện hệ thống giám sát an ninh thông minh.</i></p>
 </div>
+
+
 
 ### Cơ sở lý thuyết thuật toán, cơ sở toán học và phương pháp xác minh đặc trưng hình học - màu sắc kết hợp mô hình học sâu.
 ---
