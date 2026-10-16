@@ -46,6 +46,16 @@ Youtobe: https://www.youtube.com/@ReoRioll-2304CICTCTU <br>
 </p>
 </div>
 
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%"><img src="Images/KQ_01.jpg"></td>
+      <td width="50%"><img src="Images/KQ_02.jpg"></td>
+    </tr>
+  </table>
+  <p><i>Kết quả nhận diện vũ khí và phân tích chỉ số rủi ro trên giao diện hệ thống giám sát an ninh thông minh.</i></p>
+</div>
+
 ### Cơ sở lý thuyết thuật toán, cơ sở toán học và phương pháp xác minh đặc trưng hình học - màu sắc kết hợp mô hình học sâu.
 ---
 Hệ thống xác minh và theo dõi mối đe dọa được đề xuất dựa trên kiến trúc kết hợp (hybrid framework), dung hợp mô hình phát hiện học sâu (Deep Learning) với hệ thống xác minh logic mờ và hình học định tính. Cơ sở toán học của các thuật toán cốt lõi được mô tả chi tiết.
@@ -146,15 +156,6 @@ Hệ thống xác minh và theo dõi mối đe dọa được đề xuất dựa
 </p>
 </div>
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%"><img src="Images/KQ_01.jpg"></td>
-      <td width="50%"><img src="Images/KQ_02.jpg"></td>
-    </tr>
-  </table>
-  <p><i>Kết quả nhận diện vũ khí và phân tích chỉ số rủi ro trên giao diện hệ thống giám sát an ninh thông minh.</i></p>
-</div>
 
 
 
