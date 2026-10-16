@@ -140,6 +140,7 @@ Hệ thống xác minh và theo dõi mối đe dọa được đề xuất dựa
 </p>
 
 
+## Kết quả huấn luyện trên mô hình Yolo11n trên tập dữ liệu data-weapon
 <div align="center">
 <p align="center">
   <img src="Charts/group_figure_1.png" width="800">
